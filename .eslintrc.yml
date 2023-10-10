@@ -1,0 +1,35 @@
+root: true
+
+env:
+  node: true
+  es6: true
+
+extends:
+  - eslint:recommended
+  - plugin:prettier/recommended
+
+ignorePatterns:
+  - "**/dist/**"
+  - "**/node_modules/**"
+
+rules:
+  padding-line-between-statements:
+    - error
+    - blankLine: always
+      prev:
+        - const
+        - let
+      next:
+        - "*"
+    - blankLine: any
+      prev:
+        - const
+        - let
+      next:
+        - const
+        - let
+    - blankLine: always
+      prev:
+        - "*"
+      next:
+        - return

@@ -46,16 +46,16 @@
   "devDependencies": {
     "c8": "^8.0.1",
     "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "mocha": "^10.2.0",
     "postcss": "^8.4.31",
     "postcss-nested": "^6.0.1",
-    "rollup": "^4.0.2"
+    "prettier": "^3.0.3",
+    "rollup": "^4.0.2",
+    "vitest": "^0.34.6"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
-  },
-  "engines": {
-    "node": "^16.0.0",
-    "npm": ">=7.0.0"
   }
 }
